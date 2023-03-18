@@ -1,0 +1,37 @@
+{% extends 'l.html' %}
+
+{% block head %}{% endblock %}
+{% block footer %}{% endblock %}
+
+
+{% block main %}
+<div class="mai1a" >
+<h1 class="smai1">{{ resultat }} {{ ui.h1 }} {{ r }}</h1>
+
+<ul class="up1" >
+{% for up in up %}
+<li class="up2" >
+<figure class="up3">
+  <a href="{{ up.url }}" class="up4"> 
+    <img  class="up5" src="https://dev.planplan.io{{ up.img }}" alt="{{ up.titre }}" width="140" height="140" loading="lazy" /></a>
+  </figure>
+<div class="up6" >
+  <p class="up7" >{{ up.domaine }}</p>
+  <a href="{{ up.url }}" class="up8">
+    <h2 class="up9">{{ up.titre|truncatechars:65 }}</h2></a>
+  <p class="up10">{{ up.prix }} {{ up.devise }}</p>
+  <a href="{{ up.url_avis }}" class="up11" target="_blank" rel="noopener, noreferrer">Avis</a>
+</div>
+</li>
+{% empty %}
+<li class="up2">{{ ui.texte }}</li>
+{% endfor %}
+
+<div class="up20" >
+  {% if prp %}<a class="up21" href="{{ prp }}"><svg xmlns="http://www.w3.org/2000/svg"  class="up23" viewBox="0 0 298 511.93"><path d="M285.77 441c16.24 16.17 16.32 42.46.15 58.7-16.16 16.24-42.45 16.32-58.69.16l-215-214.47c-16.24-16.16-16.32-42.45-.15-58.69L227.23 12.08c16.24-16.17 42.53-16.09 58.69.15 16.17 16.24 16.09 42.54-.15 58.7l-185.5 185.04L285.77 441z"/></svg> Page {{ prn }} </a>{% endif %}
+  {% if nep %}<a class="up22" href="{{ nep }}">Page {{ nen }} <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 298 511.93" class="up23"><path d="M70.77 499.85c-16.24 16.17-42.53 16.09-58.69-.15-16.17-16.25-16.09-42.54.15-58.7l185.5-185.03L12.23 70.93c-16.24-16.16-16.32-42.45-.15-58.7 16.16-16.24 42.45-16.32 58.69-.15l215.15 214.61c16.17 16.25 16.09 42.54-.15 58.7l-215 214.46z"/></svg></a>{% endif %}
+</div>
+
+</ul>
+</div>
+{% endblock %}

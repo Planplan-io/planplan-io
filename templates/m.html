@@ -1,0 +1,58 @@
+{% extends 'l.html' %}
+
+{% block head %}
+<meta name="description" content="{{ ui.description|truncatechars:160 }}" />
+{% for uc in uc %}<link rel="alternate" hreflang="{{uc.lang}}" href="https://planplan.io{{uc.url_mentions}}" /> {% endfor %}
+<link rel="alternate" hreflang="x-default" href="https://planplan.io/m" />
+<script type="application/ld+json">{"@context": "https://schema.org/", 
+    "@graph": [{ "@type": "BreadcrumbList",
+    "itemListElement": [
+    {"@type": "ListItem",
+      "position": 1,
+       "item": { "@id": "https://planplan.io{{ ui.url_index }}",
+                "name": "Planplan"}
+    },
+    {"@type": "ListItem",
+      "position": 2,
+      "item": { "@id": "https://planplan.io{{ ui.url_mentions }}",
+                "name": "{{ ui.h1 }}"}
+      }]},
+    { "@type": "Organization","@id": "#o1",
+        "url": "https://planplan.io/",
+        "logo":"https://planplan.io/static/logo.png"}
+]}</script>
+{% endblock %}
+
+{% block main %}
+<div class="mai1a">
+<h1>{{ ui.h1 }}</h1>
+
+  <article><h2>Editeur</h2>
+    <p>Planplan ei</p>
+    <p>Siren : 810953562000016</p>
+    <p>Directeur des publications: Tony.B</p>
+    <p>Ville 72300 Sablé sur sarthe</p>
+    <p>Pays: France</p>
+    <p>Hébergement : Scaleway 8 rue de la Ville l’Evêque, 75008 Paris</p>
+    <p><a href="https://dev.planplan.io/m">Dev.planplan.io</a></p>
+  
+
+
+
+    {% block breadcrumb %}
+    <nav class="brea0" >
+        <ul class="brea1">
+         <li class="brea2"><a href="{{ ui.url_index }}" aria-label="Planplan.io"><svg class="brea5" viewBox="0 0 12.67 16.92" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="m11.42 1.35c-.57-.6-1.26-.95-2.01-1.19-.33-.11-.68-.16-1.04-.16h-8.25c-.06 0-.12.05-.12.12v.56s0 .04 0 .06c.48 2.05 2.19 3.58 4.3 3.64 1.13.03 2.26.02 3.39 0 .33 0 .47.08.45.43-.02.43 0 .86 0 1.34 0 .07-.05.12-.12.12h-1.18c-.78 0-1.55 0-2.33 0-2.29 0-3.93 1.32-4.43 3.56-.04.19-.08.38-.08.57v6.21c0 .24 0 .35.3.29.37-.09.25-.07.37-.09 1.26-.19 2.27-.81 3.02-1.84.61-.84.85-1.8.85-2.82 0-.47 0-.94 0-1.44 0-.07.05-.12.12-.12h3.6c2.19 0 3.99-1.45 4.33-3.61.14-.89.07-1.81.06-2.71-.01-1.13-.45-2.1-1.22-2.92zm.56 5.01c-.04 1.98-1.64 3.55-3.62 3.56-1.43 0-2.87 0-4.43 0-.07 0-.12.05-.12.12 0 1.01.07 1.96-.02 2.9-.15 1.55-1.44 2.86-2.97 3.14-.06.01-.12-.03-.13-.09 0 0 0-.01 0-.02 0-1.88-.04-3.76 0-5.63.05-1.92 1.69-3.39 3.72-3.41 1.31-.02 2.62-.01 3.93 0 .36 0 .48-.11.47-.47-.02-.76-.02-1.52 0-2.28.01-.36-.1-.48-.46-.47-1.3.02-2.59.02-3.89 0-1.77-.03-3.18-1.07-3.64-2.67-.02-.07-.03-.14-.04-.21s.05-.13.12-.13c2.65 0 5.27-.11 7.89.04 1.87.11 3.15 1.75 3.18 3.62.01.66.01 1.33 0 1.99z"/></svg></a></li>
+          <li class="brea4">{{ ui.h1 }}</li>
+    </ul></nav>
+    {% endblock %}
+
+
+
+  </article></div>
+
+  
+
+
+{% endblock %}
+{% block footer %}{% endblock %}
