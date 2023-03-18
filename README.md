@@ -1,6 +1,8 @@
 <h1>Planplan.io - Moteur de recherche de produit et service</h1>
 
 <p>Je partage mon projet 2023 pour la mise en place d'un référentiel open source data via le langage de programmation Python et Django.</p>
+<p>Voir le projet <a href="https://planplan.io/">https://planplan.io</a></p>
+
 
 <h2>Pré-production Mars 2023</h2>
 <p>Moteur de recherche pour produit et service open source data</p>
