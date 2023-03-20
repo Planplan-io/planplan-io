@@ -1,3 +1,5 @@
+CC BY-NC-ND 4.0
+
 <h1>Planplan.io - Moteur de recherche de produit et service</h1>
 
 <p>Je partage mon projet 2023 pour la mise en place d'un référentiel open source data via le langage de programmation Python et Django.</p>
