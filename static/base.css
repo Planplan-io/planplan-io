@@ -1,8 +1,8 @@
 @charset "utf-8";
 /*planplan.io     #201F28     */
 
-@font-face{font-display: swap;font-family:CalSans-SemiBold;font-style:normal;font-weight:600;src:url(https://planplan.io/static/CalSans-SemiBold.woff2) format("woff2")}
-@font-face{font-display: swap;font-family:DM Sans;font-style:normal;font-weight:400;src:url(https://planplan.io/static/DMSans-Medium.woff2) format("woff2")}
+@font-face{font-display: swap;font-family:CalSans-SemiBold;font-style:normal;font-weight:600;src:url(../static/CalSans-SemiBold.woff2) format("woff2")}
+@font-face{font-display: swap;font-family:DM Sans;font-style:normal;font-weight:400;src:url(../static/DMSans-Medium.woff2) format("woff2")}
 a{cursor: pointer;text-decoration: none;color:#007ea7}
 a:hover{color: #0194c4;}
 ul, li{list-style: none;display: block;margin-block-start: 0;margin-block-end: 0;padding: 3px 0;}
@@ -13,14 +13,6 @@ body{font-family:DM Sans,sans-serif;letter-spacing: 0.06rem;word-spacing: 0.16re
 ::placeholder{font-size: 14px;}
 *, ::after, ::before {box-sizing: border-box;}*:focus {outline: none;}
 
-.dark .iim1{ background-image: url(/static/fond-ecran.png);
-    background-repeat: no-repeat;
-    background-position:  75% 25%;}
-
-
-.light .iim1{ background-image: url(/static/fond-ecran-3.png);
-        background-repeat: no-repeat;
-        background-position:  75% 25%;}
 
 .fb{font-family:DM Sans,sans-serif}
 .fd{font-family:CalSans-SemiBold,sans-serif}
