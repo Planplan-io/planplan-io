@@ -14,7 +14,7 @@
 <p>Les autres informations du projet sont disponibles via <a href="https://dev.planplan.io/professionnel/open-source">https://dev.planplan.io/professionnel/open-source</a></p>
 
 
-<h2 style="border-top: 1px solid #fff; padding-top: 20px" >Planplan.io - Product and service search engine</h2>
+<h2 >Planplan.io - Product and service search engine</h2>
 
 <p>I am sharing my 2023 project for setting up an open source data repository through Python and Django programming language.</p>
 <p>See the project <a href="https://planplan.io/en/">https://planplan.io/en/</a> </p>
