@@ -9,7 +9,6 @@ from django.db.models import Q
 import datetime
 
 class IndexView(View):
-    
     async def get(self, request, lang=None):
         if lang is None:
             lang = 'fr'
@@ -21,7 +20,6 @@ class IndexView(View):
 
 
 class RechercheView(View):
-    
     async def get(self, request, lang=None):
         if lang is None:
             lang = 'fr'
