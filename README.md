@@ -1,6 +1,4 @@
-<img src="https://github.com/Planplan-io/planplan-io/blob/main/planplan-github.jpg" alt="planplan" style="border-radius: 10px; max-width: 100%;">
-
-
+<img src="https://github.com/Planplan-io/planplan-io/blob/main/planplan-github.jpg" alt="planplan" style="border-radius: 10px;max-width: 100%;">
 <h1>Planplan.io - Moteur de recherche de produit et service</h1>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
