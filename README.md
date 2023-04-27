@@ -1,4 +1,4 @@
-<a href="/" rel="nofollow"><img src="" alt="planplan " style="max-width: 100%;"></a>
+<img src="https://github.com/Planplan-io/planplan-io/blob/main/planplan-github.jpg" alt="planplan" style="max-width: 100%;">
 
 
 <h1>Planplan.io - Moteur de recherche de produit et service</h1>
