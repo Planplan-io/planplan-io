@@ -10,7 +10,7 @@
 <p>Moteur de recherche pour produit et service open source data</p>
 
 <h2>Balisage de notre solution à implémenter</h2>
-<p>Retrouvez le code à implémenter dans vootre boutique en ligne pour l'<a href="">Indexation</a>
+<p>Retrouvez le code à implémenter dans vootre boutique en ligne pour l'<a href="https://github.com/Planplan-io/planplan-indexation">Indexation</a>
 
 <h2>Planplan.io et Dev Planplan.io</h2>
 <p>La plus grande partie du développement a été effectuée sur dev.planplan.io qui sera open source dans quelque temps</p>
