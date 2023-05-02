@@ -12,7 +12,7 @@
 <h2>Balisage de notre solution à implémenter</h2>
 <p>Retrouvez le code à implémenter dans vootre boutique en ligne pour l'<a href="https://github.com/Planplan-io/indexation/blob/main/balise">Indexation</a>
 
-<h2>Planplan.io et Dev;planplan.io</h2>
+<h2>Planplan.io et Dev Planplan.io</h2>
 <p>La plus grande partie du développement a été effectuée sur dev.planplan.io qui sera open source dans quelque temps</p>
 
 <p>Les autres informations du projet sont disponibles via <a href="https://dev.planplan.io/professionnel/open-source">https://dev.planplan.io/professionnel/open-source</a></p>
